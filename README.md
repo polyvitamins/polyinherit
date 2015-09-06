@@ -2,12 +2,12 @@ Polyinherit
 --
 > Modifies the function prototype for the possibility of using multiple inheritance
 
-## Usage
+## Usage inherit
 ```js
 function() { }.inherit(somefunc1, somefunc2)
 ```
 
-## Prototype
+## Usage proto
 ```js
 function() { }.proto({
   someMethod: function() { }
