@@ -1,0 +1,23 @@
+{
+  "name": "polyinherit",
+  "version": "1.0.0",
+  "description": "Modifies the function prototype for the possibility of using multiple inheritance",
+  "main": "polyinherit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polyvitamins/polyinherit.git"
+  },
+  "keywords": [
+    "inherit",
+    "multiple"
+  ],
+  "author": "Vladimir Kalmykov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/polyvitamins/polyinherit/issues"
+  },
+  "homepage": "https://github.com/polyvitamins/polyinherit#readme"
+}
