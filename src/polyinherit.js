@@ -26,4 +26,6 @@ define([
 			this.apply(module, args);
 			return module;
 		}
+
+		return inherit;
 });
