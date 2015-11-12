@@ -1,6 +1,6 @@
 {
 	"name": "polyinherit",
-	"repository": "polyvitamins/polyinherit",
+	"repository": "http://github.com/polyvitamins/polyinherit",
 	"description": "Modifies the function prototype for the possibility of using multiple inheritance",
 	"version": "1.0.0",
 	"main": [
