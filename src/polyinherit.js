@@ -15,4 +15,15 @@ define([
 			mixin(this.prototype, proto);
 			return this;
 		}
+
+		Function.prototype.construct = function() {
+			
+			this.__disableContructor__ = true;
+			
+			var module = new this();
+			var args = arguments[0] instanceof Array ? arguments[0] : [];
+			
+			this.apply(module, args);
+			return module;
+		}
 });
