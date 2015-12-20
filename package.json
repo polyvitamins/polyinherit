@@ -2,7 +2,7 @@
   "name": "polyinherit",
   "version": "1.0.0",
   "description": "Modifies the function prototype for the possibility of using multiple inheritance",
-  "main": "dist/polyinherit.js",
+  "main": "src/polyinherit.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
