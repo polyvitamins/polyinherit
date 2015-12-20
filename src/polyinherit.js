@@ -1,7 +1,7 @@
 var mixin = require('mixin');
 var inherit = require('inherit');
 
-module.exports = function(inherit, mixin) {
+module.exports = (function() {
 	Function.prototype.inherit = function() {
 	    var classes = Array.prototype.slice.apply(arguments);
 	    return inherit(this, classes);
@@ -28,4 +28,4 @@ module.exports = function(inherit, mixin) {
 
 	return inherit;
 
-}
+})();
