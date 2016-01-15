@@ -1,6 +1,6 @@
 {
   "name": "polyinherit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modifies the function prototype for the possibility of using multiple inheritance",
   "main": "src/polyinherit.js",
   "scripts": {
